@@ -5,7 +5,11 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <div>Add Note</div>
+    </div>
+  );
 }
 
 export default App;
