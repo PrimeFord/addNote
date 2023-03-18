@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+.App {
+  @apply h-[100vh] w-[100%] bg-black flex justify-center items-center;
+}
+
 @tailwind utilities;
